@@ -26,7 +26,7 @@ def start_alert(user_input: dict) -> None:
     # validate_user_input(user_input)
 
     exchange = "binance"
-    config_path = "../resource/exchange_config.yml"
+    config_path = "resource/exchange_config.yml"
     fa = FactoryAlert()
     alert_obj = fa.get('PriceHighAlert', config_path, exchange)
     alert_obj.start(user_input)
@@ -35,7 +35,7 @@ def start_alert(user_input: dict) -> None:
 def start_alert_multiple(user_input: list) -> None:
     # validate_user_input(user_input)
     exchange = "binance"
-    config_path = "../resource/exchange_config.yml"
+    config_path = "resource/exchange_config.yml"
     fa = FactoryAlert()
     alert_obj = fa.get('PriceHighAlert', config_path, exchange)
     alert_obj.start(user_input)
