@@ -1,5 +1,9 @@
 # binance_ticker_wss
 This is for binance wss and alert on price break out
+![image](https://user-images.githubusercontent.com/53426805/162854675-5ed17a72-f1cc-46b2-bc3c-a745a3fa1937.png)
+
+
+
 
 # Main scripts are:
 1. user_interactor/start_alert.py : for running the alert or starting point of package
