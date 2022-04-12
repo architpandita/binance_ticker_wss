@@ -6,12 +6,12 @@ This is for binance wss and alert on price break out
 
 
 # Main scripts are:
-1. user_interactor/start_alert.py : for running the alert or starting point of package
+1. start_alert.py : for running the alert or starting point of package
 2. market_data_wss/binance_market_data.py : for the websocket interface code to fetch market data
 3. alert/price_high_alert.py : for alert rule and checking to raise the alert
 
 # How to use:
-Just run this scrip ( user_interactor/start_alert.py ) it will ask for the inputs from the user and then build the input and trigger the function.
+Just run this scrip ( start_alert.py ) it will ask for the inputs from the user and then build the input and trigger the function.
     We will support both single and multiple symbol alert
     
     Note: 
